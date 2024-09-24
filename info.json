@@ -1,0 +1,19 @@
+{
+    "display_name": {
+        "en": "Torob Product Tags",
+        "fa": "تگ های محصول برای ترب"
+    },
+    "description": {
+        "en": "Add product metatags for the Torob robot",
+        "fa": "افزودن متاتگ در صفحه محصول برای ربات ترب"
+    },
+    "authors": [
+        {
+            "name": "Weska.ir",
+            "url": "https://weska.ir"
+        }
+    ],
+    "logo": "logo.png",
+    "version": "1.0",
+    "github": "https://github.com/weska-ir/torob-product-tags"
+}
