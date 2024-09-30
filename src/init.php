@@ -1,13 +1,11 @@
 <?php
 
-use App\Repositories\PluginRepository;
-
 if (! defined('LARAVEL_START')) {
     exit(0);
 }
 
 if (request()->routeIs('client.product.index')) {
-    PluginRepository::singleton()->addAction(
+    pluginRepository()->addAction(
         hookName: 'head',
         callback: function () {
             $product = \View::getShared()['product'];
