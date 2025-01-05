@@ -22,10 +22,6 @@ if (request()->routeIs('client.product.index')) {
                 
                 ';
 
-                if ($product->image) {
-                    $html .= '<meta property="og:image" content="'. $product->image->url['medium'] .'">';
-                }
-
                 return $html;
             }
         },
