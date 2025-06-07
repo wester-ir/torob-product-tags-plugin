@@ -5,7 +5,7 @@ if (! defined('LARAVEL_START')) {
 }
 
 if (request()->routeIs('client.product.index')) {
-    trigger_plugin_action(
+    register_plugin_action(
         hook: 'head',
         callback: function () {
             $product = \View::getShared()['product'] ?? null;
